@@ -1,0 +1,16 @@
+.our-jobs {
+  padding-top: calc(var(--section-padding) / 2);
+}
+
+.our-jobs-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-jobs-lists__item {
+  position: relative;
+
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+}
