@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
   --main-color: #212121;
   --secondary-color: #757575;
@@ -77,16 +77,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .logo {
@@ -115,13 +115,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -152,8 +152,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 206px;
   margin-right: auto;
   margin-left: auto;
@@ -169,17 +169,19 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-color: var(--bg-social-icon);
   border-radius: 50%;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list__link:hover {
   background-color: var(--accent-color);
@@ -203,8 +205,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: auto;
 }
 
@@ -240,7 +242,7 @@ body {
   color: var(--accent-color);
 }
 .main-menu__link.current::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -250,7 +252,8 @@ body {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
-.main-menu__link:hover, .main-menu__link:focus {
+.main-menu__link:hover,
+.main-menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -268,8 +271,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   fill: var(--secondary-color);
 }
 
@@ -278,8 +281,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -288,17 +291,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   fill: var(--secondary-color);
-  -webkit-transition: color 250ms var(--transition-function), fill 250ms var(--transition-function);
-  transition: color 250ms var(--transition-function), fill 250ms var(--transition-function);
+  -webkit-transition: color 250ms var(--transition-function),
+    fill 250ms var(--transition-function);
+  transition: color 250ms var(--transition-function),
+    fill 250ms var(--transition-function);
 }
-.contacts__link:hover, .contacts__link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
 }
 
 .contacts__icon {
   margin-right: 10px;
 }
-.contacts__item:hover .contacts__icon, .contacts__item:focus .contacts__icon {
+.contacts__item:hover .contacts__icon,
+.contacts__item:focus .contacts__icon {
   fill: currentColor;
 }
 
@@ -324,7 +331,8 @@ body {
 .address__link:not(:last-child) {
   margin-bottom: 9px;
 }
-.address__link:hover, .address__link:focus {
+.address__link:hover,
+.address__link:focus {
   color: var(--accent-color);
 }
 
@@ -361,7 +369,7 @@ body {
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--bg-color);
   color: var(--hero-text-color);
@@ -406,7 +414,7 @@ body {
   color: var(--hero-text-color);
 }
 
-.post-address {
+.address__link--light-color {
   color: var(--hero-text-color);
 }
 
@@ -416,9 +424,12 @@ body {
   width: 100%;
   height: 100%;
 }
-.portfolio-link:hover, .portfolio-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-link:hover,
+.portfolio-link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item-title {
@@ -434,7 +445,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .portfolio-item {
@@ -443,7 +454,7 @@ body {
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.portfolio-item:not(:nth-last-child(-n+3)) {
+.portfolio-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
 
@@ -478,17 +489,18 @@ body {
   line-height: 1.56;
   letter-spacing: 0.03em;
   -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms var(--transition-function);
   transition: -webkit-transform 250ms var(--transition-function);
   transition: transform 250ms var(--transition-function);
-  transition: transform 250ms var(--transition-function), -webkit-transform 250ms var(--transition-function);
+  transition: transform 250ms var(--transition-function),
+    -webkit-transform 250ms var(--transition-function);
 }
 
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .portfolio-filter {
@@ -496,8 +508,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -520,9 +532,12 @@ body {
   cursor: pointer;
   background-color: var(--button-font);
 }
-.portfolio-btn:hover, .portfolio-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background: var(--accent-color);
   color: var(--hero-text-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}/*# sourceMappingURL=portfolio.css.map */
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+} /*# sourceMappingURL=portfolio.css.map */
