@@ -819,4 +819,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--hero-text-color);
+}
+
+.post-address {
+  color: var(--hero-text-color);
 }/*# sourceMappingURL=main.css.map */

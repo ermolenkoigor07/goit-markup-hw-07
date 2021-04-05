@@ -406,6 +406,10 @@ body {
   color: var(--hero-text-color);
 }
 
+.post-address {
+  color: var(--hero-text-color);
+}
+
 .portfolio-link {
   position: relative;
   display: block;
@@ -454,10 +458,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-}
-
-.post-address {
-  color: var(--hero-text-color);
 }
 
 .portfolio-images-wrapper {
